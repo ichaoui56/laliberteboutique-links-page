@@ -7,13 +7,13 @@ export default function Page() {
   const links = [
     {
       icon: <Instagram className="w-5 h-5" />,
-      label: "Suivez-nous sur Instagram",
-      href: "#",
+      label: "@boutiquelaliberte",
+      href: "https://www.instagram.com/boutiquelaliberte/",
     },
     {
       icon: <Facebook className="w-5 h-5" />,
-      label: "Aimez-nous sur Facebook",
-      href: "#",
+      label: "Boutique La Liberté",
+      href: "https://www.facebook.com/share/1MUbKLrGzV/?mibextid=wwXIfr",
     },
     {
       icon: (
@@ -21,8 +21,8 @@ export default function Page() {
           <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
         </svg>
       ),
-      label: "Regardez-nous sur TikTok",
-      href: "#",
+      label: "@boutiquelaliberte40",
+      href: "https://www.tiktok.com/@boutiquelaliberte40?is_from_webapp=1&sender_device=pc",
     },
     {
       icon: (
@@ -40,25 +40,20 @@ export default function Page() {
           ></path>
         </svg>
       ),
-      label: "Ajoutez-nous sur Snapchat",
-      href: "#",
-    },
-    {
-      icon: <MapPin className="w-5 h-5" />,
-      label: "Trouvez-nous sur Google Maps",
-      href: "#",
+      label: "la_liberte40",
+      href: "https://snapchat.com/t/BYMGOWOS",
     },
   ]
 
   const socialLinks = [
     {
       icon: <Instagram className="w-6 h-6" />,
-      href: "#",
+      href: "https://www.instagram.com/boutiquelaliberte/",
       label: "Instagram",
     },
     {
       icon: <Facebook className="w-6 h-6" />,
-      href: "#",
+      href: "https://www.facebook.com/share/1MUbKLrGzV/?mibextid=wwXIfr",
       label: "Facebook",
     },
     {
@@ -67,7 +62,7 @@ export default function Page() {
           <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
         </svg>
       ),
-      href: "#",
+      href: "https://www.tiktok.com/@boutiquelaliberte40?is_from_webapp=1&sender_device=pc",
       label: "TikTok",
     },
     {
@@ -86,7 +81,7 @@ export default function Page() {
           />
         </svg>
       ),
-      href: "#",
+      href: "https://snapchat.com/t/BYMGOWOS",
       label: "Snapchat",
     },
   ]
@@ -142,6 +137,8 @@ export default function Page() {
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white hover:text-[#60a5fa] transition-all duration-300 hover:scale-110"
                 aria-label={social.label}
               >
@@ -157,6 +154,8 @@ export default function Page() {
             <a
               key={index}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group block w-full px-6 py-4 border-2 border-white rounded-full bg-[#0f172a] hover:bg-white hover:text-[#1e3a8a] transition-all duration-300 shadow-lg shadow-white/10 hover:shadow-white/30"
             >
               <div className="flex items-center gap-4">
@@ -169,6 +168,35 @@ export default function Page() {
               </div>
             </a>
           ))}
+        </div>
+
+        <div className="px-6 mb-8">
+          <a
+            href="https://maps.app.goo.gl/ooqQ5gaK8qwNqen19"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full rounded-2xl overflow-hidden shadow-xl border-2 border-white/20 hover:border-white/40 transition-all duration-300 cursor-pointer"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.743395453927!2d-5.815262524159623!3d35.78167917255503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7ffd3099e06f%3A0x1dbdf602eba9bc59!2sBoutique%20La%20Libert%C3%A9!5e0!3m2!1sfr!2sma!4v1762719580558!5m2!1sfr!2sma"
+              width="100%"
+              height="300"
+              style={{ border: 0, pointerEvents: "none" }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Boutique La Liberté Location"
+            ></iframe>
+          </a>
+          <a
+            href="https://maps.app.goo.gl/ooqQ5gaK8qwNqen19"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 flex items-center justify-center gap-2 text-white/80 hover:text-white transition-colors"
+          >
+            <MapPin className="w-4 h-4" />
+            <span className="text-sm">80 Rue de la Liberté, Tanger 90000</span>
+          </a>
         </div>
 
         {/* Footer */}
