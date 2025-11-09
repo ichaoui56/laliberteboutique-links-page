@@ -110,7 +110,7 @@ export default function Page() {
       <div className="relative z-10 w-full max-w-2xl mx-auto bg-[#0f172a]/95 backdrop-blur-sm rounded-3xl overflow-hidden shadow-2xl shadow-white/10">
         <div className="relative w-full h-64">
           <Image
-            src="/images/design-mode/Screenshot%202025-11-09%20at%2001.21.14.png"
+            src="/images/design-mode/cover-image.png"
             alt="Boutique La Liberté Storefront"
             fill
             className="object-cover"
