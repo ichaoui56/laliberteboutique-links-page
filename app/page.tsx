@@ -13,7 +13,7 @@ export default function Page() {
     {
       icon: <Facebook className="w-5 h-5" />,
       label: "Boutique La Liberté",
-      href: "https://www.facebook.com/share/1MUbKLrGzV/?mibextid=wwXIfr",
+      href: "https://www.facebook.com/share/171Lca8RJL/?mibextid=wwXIfr",
     },
     {
       icon: (
@@ -40,8 +40,8 @@ export default function Page() {
           ></path>
         </svg>
       ),
-      label: "la_liberte40",
-      href: "https://snapchat.com/t/BYMGOWOS",
+      label: "laliberte_40",
+      href: "https://snapchat.com/t/7AhJU1Rw",
     },
   ]
 
@@ -53,7 +53,7 @@ export default function Page() {
     },
     {
       icon: <Facebook className="w-6 h-6" />,
-      href: "https://www.facebook.com/share/1MUbKLrGzV/?mibextid=wwXIfr",
+      href: "https://www.facebook.com/share/171Lca8RJL/?mibextid=wwXIfr",
       label: "Facebook",
     },
     {
@@ -81,7 +81,7 @@ export default function Page() {
           />
         </svg>
       ),
-      href: "https://snapchat.com/t/BYMGOWOS",
+      href: "https://snapchat.com/t/7AhJU1Rw",
       label: "Snapchat",
     },
   ]
